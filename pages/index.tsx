@@ -91,11 +91,12 @@ export default function Home() {
             ) : null}
           </>
         ) : (
-          <div>
+          <div className={styles.card}>
             Sorry, your browser is not able to scan barcodes yet. Supported browsers are listed{' '}
             <a href="https://developer.mozilla.org/en-US/docs/Web/API/Barcode_Detection_API#browser_compatibility">
               here
             </a>
+            .
           </div>
         )}
       </div>
